@@ -27,6 +27,12 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'ankush/frappe_sql.nvim'
 ```
 
+Make sure you have grammar for SQL and Python installed.
+
+```
+:TSInstall sql python
+```
+
 ---
 
 License: same as Vim `:h license`
